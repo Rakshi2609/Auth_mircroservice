@@ -4,10 +4,10 @@
   "description": "Centralized email verification and authentication system",
   "main": "server.js",
   "scripts": {
-    "dev": "node init && nodemon server.js",
-    "start": "node init && node server.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "client": "cd client && npm run dev",
-    "dev:all": "node init && concurrently \"npm run dev\" \"npm run client\""
+    "dev:all": "concurrently \"npm run dev\" \"npm run client\""
   },
   "keywords": [
     "auth",
